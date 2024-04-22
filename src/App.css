@@ -1,0 +1,217 @@
+  *{
+    color: white;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+  }
+  hr{
+    color: white;
+  }
+  nav > ul > a{
+    margin: 7px;
+    color: aliceblue;
+    text-decoration: none;
+  }
+  nav > ul > a:hover{
+    color: rgb(196, 196, 196);
+  }
+  nav > ul > a > button{
+    border: 0.5px solid white;
+    border-radius: 20px;
+    background-color: rgba(240, 248, 255, 0);
+    height: 30px;
+    width: 120px;
+    color: aliceblue;
+  }
+  .carousel-caption {
+    color: white;
+    position: relative;
+    margin: 220px;
+    text-align: center;
+    margin-right: 670px;
+    text-transform: uppercase;
+    top: -100px;
+  }
+  .carousel-caption > a > button{
+    border: 0.5px solid white;
+    border-radius: 20px;
+    background-color: rgba(240, 248, 255, 0);
+    height: 40px;
+    width: 190px;
+    color: aliceblue;
+    margin-left: -220px;
+  }
+  .carousel-caption > img{
+    margin-left: 700px;
+    margin-bottom: -200px;
+  }
+  h3 > span{
+    color: rgb(255, 167, 95);
+    text-transform: uppercase;
+  }
+  main{
+    background-image: url(./images/backgroundImgFirstPage.png);
+    height: 831px;
+  }
+  .carousel-control-next-icon, .carousel-control-prev-icon{
+    margin-top: -200px;
+  }
+  .carousel-indicators{
+    margin-bottom: 200px;
+  }
+  .custom-carousel carousel slide{
+    height: 651px;
+  }
+  .secondPage{
+    background-color: rgba(17, 17, 17, 1);
+    height: 751px;
+  }
+  .thirdPage{
+    background-color: rgba(17, 17, 17, 1);
+    height: 751px;
+  }
+  aside{    
+    padding-top: 100px;
+  }
+  aside{
+    display: flex;
+    justify-content: space-around;
+  }
+  .allBoxs{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 536px;
+    height: 624px;
+  }
+  .box{
+    margin-top: 0px;
+  }
+  aside > div > img{
+    width: 493px;
+    height: 600px;
+  }
+  .boxsFood{
+    height: 600px;
+    padding: 18px 17px 27px 18px;
+    gap: 0px;
+    border-radius: 500px 500px 18px 18px;
+    opacity: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 90px;
+  }
+  .fourthPage{
+    background-color: rgba(17, 17, 17, 1);
+  }
+  .fourthPage > h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .innerBox {
+    width: 25%;
+  }
+  .FivePage{
+    background-color: rgba(24, 24, 24, 1);
+    padding-top: 100px;
+  }
+  .h3FivePage{
+    padding-bottom: 80px;
+  }
+  body{
+    background-color: rgba(17, 17, 17, 1);;
+  }
+  .sixBackIMG{
+    height: 700px;
+    width: 100%;
+    background-image: url(./images//backgroundImgForSIXpage.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sixSecondBackIMG {
+    background-image: url(./images/innerImgForSixPage.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 500px; 
+    width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sixSecondBackIMG > img{
+    height: 70px;
+    width: 70px;
+  }
+  .sixSecondBackIMG > img:hover{
+    cursor: pointer;
+  }
+  .sixSecondBackIMG > div{
+    position: absolute;
+    margin-left: 725px; 
+    margin-top: 341px;
+    background-color: rgba(40, 40, 40, 1);
+    padding: 5px;
+  }
+  .sevenPageInfo > span > a{
+    color: rgb(255, 167, 95);;
+  }
+  .sevenPage{
+    background-color: rgba(17, 17, 17, 1);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+  }
+  .sevenPageInfo{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+  }
+  form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(17, 17, 17, 1);
+    padding: 15px;
+  }
+  input{
+    background-color: rgba(40, 40, 40, 1);
+    border: 0.2px solid white;
+    border-radius: 15px;
+  }
+  textarea{
+    background-color: rgba(40, 40, 40, 1);
+    border: 0.2px solid white;
+    border-radius: 15px;
+    align-items: center;
+  }
+  form > button {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(112, 112, 112, 0);
+    color: white;
+  }
+  footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(20, 18, 23, 1);
+    font-size: 20px;
+  }
+  .boxFooter{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+  }
+  li{
+    list-style: none;
+  }
+  
+  
